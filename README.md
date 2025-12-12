@@ -9,6 +9,16 @@ A Neovim plugin that truncates overly long inlay hints for LSP clients, making y
 - Preserves tooltip information
 - Easy to enable/disable
 
+## Comparison
+
+Before applying the plugin:
+
+![Before trimming](imgs/before.png)
+
+After applying the plugin:
+
+![After trimming](imgs/after.png)
+
 ## Requirements
 
 - Neovim >= 0.10.0 (for LSP inlay hints support)
